@@ -73,6 +73,17 @@ To develop a **console-based file explorer** that performs all essential Linux f
 
 ---
 
+## 📸 Output Screenshots
+
+### Bash Output
+![Bash Output 0](output/bash-output_0.png)
+![Bash Output 1](output/bash-output_1.png)
+
+### Program Output
+![Program Output 1.0](output/output-1.0.png)
+![Program Output 1.1](output/output-1.1.png)
+
+
 ## 💻 Example Output
 
 ```bash
@@ -128,12 +139,3 @@ main.cpp
 "/home/compiler" $ exit
 Bye!
 
-## 📸 Output Screenshots
-
-### Bash Output
-![Bash Output 0](output/bash-output_0.png)
-![Bash Output 1](output/bash-output_1.png)
-
-### Program Output
-![Program Output 1.0](output/output-1.0.png)
-![Program Output 1.1](output/output-1.1.png)
