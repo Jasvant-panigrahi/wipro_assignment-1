@@ -1,0 +1,51 @@
+Simple File Explorer — type 'help' for commands
+"/home/compiler" $ pwd
+"/home/compiler"
+
+"/home/compiler" $ ls
+Desktop
+Documents
+Downloads
+main.cpp
+test.txt
+
+"/home/compiler" $ mkdir Project_Files
+"/home/compiler" $ cd Project_Files
+"/home/compiler/Project_Files" $ touch demo.txt
+"/home/compiler/Project_Files" $ ls -l
+-rw-r--r--        0 2025-11-08 12:34:25 demo.txt
+
+"/home/compiler/Project_Files" $ cp demo.txt copy_demo.txt
+"/home/compiler/Project_Files" $ ls
+demo.txt
+copy_demo.txt
+
+"/home/compiler/Project_Files" $ mv copy_demo.txt final_demo.txt
+"/home/compiler/Project_Files" $ ls
+demo.txt
+final_demo.txt
+
+"/home/compiler/Project_Files" $ chmod 755 final_demo.txt
+"/home/compiler/Project_Files" $ stat final_demo.txt
+-rwxr-xr-x        0 2025-11-08 12:36:10 final_demo.txt
+Absolute: /home/compiler/Project_Files/final_demo.txt
+Type: file
+
+"/home/compiler/Project_Files" $ search demo
+/home/compiler/Project_Files/demo.txt
+/home/compiler/Project_Files/final_demo.txt
+
+"/home/compiler/Project_Files" $ rm demo.txt
+"/home/compiler/Project_Files" $ ls
+final_demo.txt
+
+"/home/compiler/Project_Files" $ cd ..
+"/home/compiler" $ ls
+Desktop
+Documents
+Downloads
+Project_Files
+main.cpp
+
+"/home/compiler" $ exit
+Bye!
